@@ -7,7 +7,7 @@ import (
 	"os"
 )
 
-const version = "v2.0.0"
+const version = "v3.0.0"
 
 func handler(w http.ResponseWriter, req *http.Request) {
 	message := os.Getenv("MESSAGE")
