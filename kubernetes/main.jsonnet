@@ -1,5 +1,5 @@
-function(tag)
+function(tag, message)
   [
-    (import 'deployment.libsonnet')(tag),
+    (import 'deployment.libsonnet')(tag, message),
     import 'service.libsonnet',
   ]
